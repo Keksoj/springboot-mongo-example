@@ -8,7 +8,7 @@ public class Controller {
     
     @RequestMapping("/")
     public String index() {
-        return "Clever-Cloud demo für meine liebe Gäste. It is made of java with maven, spring-boot and mongodb.";
+        return "Clever-Cloud demo für Florian und David. It is made of java with maven, spring-boot and mongodb.";
     }
 
 }
