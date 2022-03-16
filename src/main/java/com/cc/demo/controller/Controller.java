@@ -8,7 +8,12 @@ public class Controller {
     
     @RequestMapping("/")
     public String index() {
-        return "Clever-Cloud demo für Florian und David. It is made of java with maven, spring-boot and mongodb.";
+        return "
+            <h1>Clever Cloud grüß dich, Javaland!</h1>
+            <p>
+                Diese Anwendung wurde mit Springboot erstellt,
+                mit Maven gebuildet, und verbindet sich mit einem MongoDB.
+            </p>";
     }
 
 }
