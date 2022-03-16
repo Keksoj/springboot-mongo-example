@@ -8,12 +8,7 @@ public class Controller {
     
     @RequestMapping("/")
     public String index() {
-        return "
-            <h1>Clever Cloud grüß dich, Javaland!</h1>
-            <p>
-                Diese Anwendung wurde mit Springboot erstellt,
-                mit Maven gebuildet, und verbindet sich mit einem MongoDB.
-            </p>";
+        return "<body><h1>Clever Cloud grüß dich, Javaland!</h1><p>Diese Anwendung wurde mit Springboot erstellt, mit Maven gebuildet, und verbindet sich mit einem MongoDB.</p></body>";
     }
 
 }
